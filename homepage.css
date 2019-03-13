@@ -1,0 +1,94 @@
+/* Title container */
+.TitleContainer {
+	background-color: #ADD8E6;
+	height: 80px;
+	padding-top: 10px;
+}
+
+.title {
+	font-size: 22pt;
+	font-weight: bold;
+	padding-top: 5px;
+	padding-left: 30px;
+}
+
+.TitleButtons {
+	display: inline-block;
+	margin-left: 60%;
+	justify-content: right;
+}
+
+.HomeButton {
+	margin-right: 7px;
+}
+.HomeButton:hover {
+	cursor: pointer;
+	background-color: #ddd; 
+}
+
+.AboutButton {
+	margin-right: 7px;
+}
+.AboutButton:hover {
+	cursor: pointer;
+	background-color: #ddd; 
+}
+
+.ContactButton:hover {
+	cursor: pointer;
+	background-color: #ddd; 
+}
+
+/* End title container */
+
+.ButtonRow {
+	display: flex;
+    align-items: center;
+    justify-content: center;
+	height: 600px;
+}
+
+.BarButton {
+	height: 150px;
+	width: 150px;
+	margin-right: 300px;
+	border-radius: 50%;
+	border: 2px solid black;
+	text-align: center;
+	font-size: 16pt;
+}
+.BarButton:hover {
+	cursor: pointer;
+	border-color: green;
+}
+
+.RestaurantButton {
+	height: 150px;
+	width: 150px;
+	border-radius: 50%;
+	text-align: center;
+	border: 2px solid black;
+	font-size: 16pt;
+}
+.RestaurantButton:hover {
+	cursor: pointer;
+	border-color: green;
+}
+
+.NavigationButtons {
+	text-align: center;
+}
+
+.dot {
+	height: 15px;
+  	width: 15px;
+  	border: 2px solid black;
+  	border-radius: 50%;
+  	display: inline-block;
+}
+.dot:hover {
+	cursor: pointer;
+	background-color: #bbb;
+}
+
+
