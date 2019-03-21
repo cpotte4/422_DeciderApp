@@ -17,6 +17,25 @@
 	margin-left: 60%;
 	justify-content: right;
 }
+.b{
+    
+    font-size: 76px;
+	margin:70px;
+    
+}
+.b{
+    
+    font-size: 76px;
+	margin:70px;
+    
+}
+
+.p{
+
+margin:1em auto;
+border-top: 1px solid #ffffff;
+}
+
 
 .HomeButton {
 	margin-right: 7px;
@@ -90,5 +109,14 @@
 	cursor: pointer;
 	background-color: #bbb;
 }
-
-
+.apply {
+    display: inline-block;
+    padding: 16px 12px;
+    margin-bottom: 367px;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 2.428571;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+}
