@@ -1,54 +1,239 @@
+<!DOCTYPE html>
 <html>
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<!-- Load style sheets -->
-	<!--<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">-->
-	
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 	<link rel="stylesheet" href="mainpage.css">
+	<!-- Font Awesome Icon Library -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<title>Restaurant Options</title>
+<style>
+.u{
+font-size: 51px;
+color:#0a1572;
 
-	<title>FoodList</title>
+}
+.checked {
+  color: orange;
+}
+.fa
+{
 
-<script type="text/javascript">
-	
+font-size: 50px;
+}
+.move
+{
+padding-left: 55px;
+width:298px;
+}
 
-</script>
-
+</style>
 </head>
 <body>
-<div class="bs-example">
-    <nav id="myNavbar" class="navbar navbar-default" role="navigation">
-        <!-- Brand and toggle get grouped for better mobile display -->
-        <div class="container">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-              <a class="navbar-brand  pinal title" href="#"> <style="margin-left: -67px;"> Decider App</style></a>
-            </div>
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav TitleButtons">
-                    <li><a href="mainpage.html">Home</a></li>
-                    <li><a href="#">About</a></li>
-					<li><a href="#">Contact Us</a></li>
-                   
-                </ul>
-                
-                    
-                </ul>
-            </div><!-- /.navbar-collapse -->
+
+<h2></h2>
+<p></p>
+
+<div class="tab">
+  <button class="tablinks" onclick="openRestaurant(event, 'Cafe El Tapatio')" id="defaultOpen">Cafe El Tapatio</button>
+  <button class="tablinks" onclick="openRestaurant(event, 'Taco Burrito King')">Taco Burrito King</button>
+  <button class="tablinks" onclick="openRestaurant(event, 'The Mango Restaurant')">The Mango Restaurant</button>
+  <button class="tablinks" onclick="openRestaurant(event, 'Mangoes')">TacoMaya</button>
+  <button class="tablinks" onclick="openRestaurant(event, 'Mangoes')">Uncle Julio's</button>
+  <button class="tablinks" onclick="openRestaurant(event, 'Mangoes')">The Little Mexican Cafe</button>
+  <button class="tablinks" onclick="openRestaurant(event, 'Mangoes')">On The Border</button>
+  <button class="tablinks" onclick="openRestaurant(event, 'Mangoes')">Lalo's</button>
+</div>
+<div class="container">
+  <div class="row">
+  <div>
+	<div id="Cafe El Tapatio" class="tabcontent">
+	<h3 class="u"> Cafe El Tapatio</h3>
+	  <img src="cafe-el-tapatio.jpg" width="350" height="250">
+	 
+
+	  <div class="star-rating move" title="70%">
+			<div class="back-stars ">
+			<i class="fa fa-star" aria-hidden="true"></i>
+			<i class="fa fa-star" aria-hidden="true"></i>
+			<i class="fa fa-star" aria-hidden="true"></i>
+			<i class="fa fa-star" aria-hidden="true"></i>
+			<i class="fa fa-star" aria-hidden="true"></i>
+        
+        <div class="front-stars " style="width: 70%">
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true" ></i>
         </div>
-    </nav>
+    </div>
+	</div>
+	<div class="move">
+	  <p ><h1>Des Plaines, IL</h1></p>
+	  </div>
+	  <div>
+	  
+</div>
+		
+	
+	
+	<div class="col-sm">
+	</div>
+	</div>
+	
+	<div class="container">
+  <div class="row">
+  <div>
+	<div id="Taco Burrito King" class="tabcontent">
+	<h3 class="u"> Taco Burrito King</h3>
+	  <img src="tbk.png" width="350" height="250">
+	 
+
+	  <div class="star-rating move" title="67%">
+			<div class="back-stars ">
+			<i class="fa fa-star" aria-hidden="true"></i>
+			<i class="fa fa-star" aria-hidden="true"></i>
+			<i class="fa fa-star" aria-hidden="true"></i>
+			<i class="fa fa-star" aria-hidden="true"></i>
+			<i class="fa fa-star" aria-hidden="true"></i>
+        
+        <div class="front-stars " style="width: 67%">
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true" ></i>
+        </div>
+    </div>
+	</div>
+	<div class="move">
+	  <p ><h1>Niles, IL</h1></p>
+	  </div>
+	  <div>
+	  
+</div>
+		
+	
+	
+	<div class="col-sm">
+	</div>
+	</div>
+
+
+
+<div class="container">
+  <div class="row">
+  <div>
+	<div id="The Mango Rastaurant" class="tabcontent">
+	<h3 class="u"> The Mango Restaurant</h3>
+	  <img src="mango.jpg" width="350" height="250">
+	 
+
+	  <div class="star-rating move" title="37%">
+			<div class="back-stars ">
+			<i class="fa fa-star" aria-hidden="true"></i>
+			<i class="fa fa-star" aria-hidden="true"></i>
+			<i class="fa fa-star" aria-hidden="true"></i>
+			<i class="fa fa-star" aria-hidden="true"></i>
+			<i class="fa fa-star" aria-hidden="true"></i>
+        
+        <div class="front-stars " style="width: 37%">
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true" ></i>
+        </div>
+    </div>
+	</div>
+	<div class="move">
+	  <p ><h1>Niles, IL</h1></p>
+	  </div>
+	  <div>
+	  
+</div>
+		
+	
+	
+	<div class="col-sm">
+	</div>
+	</div>
+	
+<div class="container">
+  <div class="row">
+  <div>
+	<div id="TacoMaya" class="tabcontent">
+	<h3 class="u"> TacoMaya</h3>
+	  <img src="TacoMaya.jpg" width="350" height="250">
+	 
+
+	  <div class="star-rating move" title="80%">
+			<div class="back-stars ">
+			<i class="fa fa-star" aria-hidden="true"></i>
+			<i class="fa fa-star" aria-hidden="true"></i>
+			<i class="fa fa-star" aria-hidden="true"></i>
+			<i class="fa fa-star" aria-hidden="true"></i>
+			<i class="fa fa-star" aria-hidden="true"></i>
+        
+        <div class="front-stars " style="width: 80%">
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true" ></i>
+        </div>
+    </div>
+	</div>
+	<div class="move">
+	  <p ><h1>Niles, IL</h1></p>
+	  </div>
+	  <div>
+	  
+</div>
+		
+	
+	
+	<div class="col-sm">
+	</div>
+	</div>
+<div id="Uncle Julio's" class="tabcontent">
+  <h3>Uncle Julio's</h3>
+  <p></p>
+</div>
+<div id="The Little Mexican Cafe" class="tabcontent">
+  <h3>The Little Mexican Cafe</h3>
+  <p></p>
+</div>
+<div id="On The Border" class="tabcontent">
+  <h3>On The Border</h3>
+  <p></p>
+</div>
+<div id="Lalo's" class="tabcontent">
+  <h3>Lalo's</h3>
+  <p></p>
 </div>
 
+<script>
+function openRestaurant(evt, placeName) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+  document.getElementById(placeName).style.display = "block";
+  evt.currentTarget.className += " active";
+}
 
+// Get the element with id="defaultOpen" and click on it
+document.getElementById("defaultOpen").click();
+</script>
+   
 </body>
 </html> 
