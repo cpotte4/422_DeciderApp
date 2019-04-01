@@ -1,0 +1,878 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="mainpage.css">
+	<!-- Font Awesome Icon Library -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	
+	
+	
+	
+	
+	
+	
+			<title>Bar Locations</title>
+<style>
+.u{
+font-size: 51px;
+color:#0a1572;
+
+}
+.checked {
+  color: orange;
+}
+.fa
+{
+
+font-size: 50px;
+}
+.move
+{
+padding-left: 55px;
+width:298px;
+}
+.input-group
+{
+width:136px;
+margin-top: -305px;
+	margin-left: 368px;
+//padding-top: 190px;
+}
+.tabcontent
+{
+width:187%;
+border:0;
+}
+
+.col-md-6{
+	width: 40%;
+}
+.tacobox{
+	margin-right: -30px;
+	margin-left: 122px;
+	margin-bottom: -297px;
+	
+}
+
+.apply{
+margin-top: 40px;
+	margin-bottom: -10px;
+		padding: 16px 8px;
+}
+.box{
+	padding-left: 355px;
+}
+
+.btn-primary{
+	width: 83px
+}
+.titlesize
+		{
+front-size:24pt;
+
+		}
+</style>
+</head>
+<body>
+<div class="bs-example">
+	<nav id="myNavbar" class="navbar navbar-default" role="navigation">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+              <a class="navbar-brand pinal title titlesize" href="#">  Decider App</a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav TitleButtons">
+                    <li><a href="mainpage.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+					<li><a href="contact.html">Contact Us</a></li>
+                   
+                </ul>
+
+
+
+			</div><!-- /.navbar-collapse -->
+        </div>
+    </nav>
+</div>
+
+
+<div class="tab">
+  <button class="tablinks" onclick="openRestaurant(event, 'Log Cabin Bar')" id="defaultOpen">Log Cabin Bar</button>
+  <button class="tablinks" onclick="openRestaurant(event, 'Ludlow Bar Chicago')">Ludlow Bar Chicago</button>
+  <button class="tablinks" onclick="openRestaurant(event, 'Miner Street Tavern')">Miner Street Tavern</button>
+  <button class="tablinks" onclick="openRestaurant(event, 'At Work Sports Bar & Grill')">At Work Sports Bar & Grill</button>
+  <button class="tablinks" onclick="openRestaurant(event, 'Lee Street Games & sports Bar')">Lee Street Games & sports Bar</button>
+  <button class="tablinks" onclick="openRestaurant(event, 'Countryside Saloon')">Countryside Saloon</button>
+  <button class="tablinks" onclick="openRestaurant(event, 'Phoenix Bar and Nightclub')">Phoenix Bar and Nightclub</button>
+  <button class="tablinks" onclick="openRestaurant(event, 'Arlington Ale House')">Arlington Ale House</button>
+   
+</div>
+
+
+
+<div class="container">
+	<div class="row">
+  
+  
+	<div>
+	<div class="row">
+  
+	<div class="col-md-6">
+	<div id="Log Cabin Bar" class="tabcontent">
+		<h3 class="u"> Log Cabin Bar</h3>
+			<img src="Log-Cabin-Bar.jpg" width="350" height="250">
+	 
+
+		<div class="star-rating move" title="94%">
+					<div class="back-stars ">
+					<i class="fa fa-star" aria-hidden="true"></i>
+					<i class="fa fa-star" aria-hidden="true"></i>
+					<i class="fa fa-star" aria-hidden="true"></i>
+					<i class="fa fa-star" aria-hidden="true"></i>
+					<i class="fa fa-star" aria-hidden="true"></i>
+        
+        <div class="front-stars " style="width: 94%">
+					<i class="fa fa-star" aria-hidden="true"></i>
+					<i class="fa fa-star" aria-hidden="true"></i>
+					<i class="fa fa-star" aria-hidden="true"></i>
+					<i class="fa fa-star" aria-hidden="true"></i>
+					<i class="fa fa-star" aria-hidden="true" ></i>
+        
+		</div>
+    
+	</div>
+	
+		</div>
+		
+		<div class="move">
+			<p ><h1>Des Plaines, IL</h1></p>
+			<div>
+			<div class="input-group">
+		<span class="input-group-btn">
+			<button type="button" class="btn btn-default" data-value="decrease" data-target="#spinner" data-toggle="spinner">
+				<span class="glyphicon glyphicon-minus"></span>
+			</button>
+		</span>
+		<input type="text" data-ride="spinner" id="spinner" class="form-control input-number" value="1">
+		<span class="input-group-btn">
+			<button type="button" class="btn btn-default" data-value="increase" data-target="#spinner" data-toggle="spinner">
+				<span class="glyphicon glyphicon-plus"></span>
+			</button>
+		</span>
+			</div>
+						<div class="container box">
+
+				<div class="btn-group">
+				 
+				
+					<a class="btn btn-success apply" href="FoodLocation.html" role="button">Reserve</a> 
+			
+						<a class="btn btn-primary apply" href="FoodLocation.html" role="button">Share</a>
+			
+			
+						</div>	
+						</div>
+		
+</div>
+
+		</div>
+	  
+		</div>
+	  
+		</div>
+	  
+		<div>
+	 
+	
+</div>
+
+
+
+
+
+
+
+
+		</div></div>
+		
+</div>
+</div>
+
+
+
+
+
+
+
+	<div class="container">
+		<div class="tacobox">
+		
+		
+	<div>
+	<div class="tacobox">
+	
+	<div class="col-md-6">
+	<div id="Ludlow Bar Chicago" class="tabcontent">
+		<h3 class="u"> Ludlow Bar Chicago</h3>
+			<img src="Ludlow-bar.jpg" width="350" height="250">
+	 
+
+	  
+		<div class="star-rating move" title="90%">
+					<div class="back-stars ">
+					<i class="fa fa-star" aria-hidden="true"></i>
+					<i class="fa fa-star" aria-hidden="true"></i>
+					<i class="fa fa-star" aria-hidden="true"></i>
+					<i class="fa fa-star" aria-hidden="true"></i>
+					<i class="fa fa-star" aria-hidden="true"></i>
+        
+        <div class="front-stars " style="width: 90%">
+					<i class="fa fa-star" aria-hidden="true"></i>
+					<i class="fa fa-star" aria-hidden="true"></i>
+					<i class="fa fa-star" aria-hidden="true"></i>
+					<i class="fa fa-star" aria-hidden="true"></i>
+					<i class="fa fa-star" aria-hidden="true" ></i>
+        
+		</div>
+    
+	</div>
+	
+		</div>
+	
+		<div class="move">
+			<p ><h1>Chicago, IL</h1></p>
+			<div>
+			<div class="input-group">
+    <span class="input-group-btn">
+        <button type="button" class="btn btn-default" data-value="decrease" data-target="#spinner" data-toggle="spinner">
+            <span class="glyphicon glyphicon-minus"></span>
+        </button>
+    </span>
+    <input type="text" data-ride="spinner" id="spinner" class="form-control input-number" value="1">
+    <span class="input-group-btn">
+        <button type="button" class="btn btn-default" data-value="increase" data-target="#spinner" data-toggle="spinner">
+            <span class="glyphicon glyphicon-plus"></span>
+        </button>
+    </span>
+	</div>
+				<div class="container box">
+
+			<div class="btn-group">
+				 
+				
+				<a class="btn btn-success apply" href="FoodLocation.html" role="button">Reserve</a> 
+			
+					<a class="btn btn-primary apply" href="FoodLocation.html" role="button">Share</a>
+			
+			
+					</div>	
+					</div>
+	
+</div>
+	  </div>
+	  
+	  </div>
+	  
+	  </div>
+	  
+	  <div>
+	 
+	
+</div>
+		
+	
+	
+	
+		
+	
+  
+	
+	</div></div>
+  
+</div>
+</div>
+	
+
+	  
+	  
+	 
+	
+		
+	
+	
+	
+		
+	
+  
+<div class="container">
+	<div class="tacobox">
+	  
+	
+	<div>
+	<div class="tacobox">
+	
+	<div class="col-md-6">
+	<div id="Miner Street Tavern" class="tabcontent">
+		<h3 class="u"> Miner Street Tavern</h3>
+			<img src="Miner-street-bar.jpg" width="350" height="250">
+	 
+
+	 
+		<div class="star-rating move" title="90%">
+					<div class="back-stars ">
+					<i class="fa fa-star" aria-hidden="true"></i>
+					<i class="fa fa-star" aria-hidden="true"></i>
+					<i class="fa fa-star" aria-hidden="true"></i>
+					<i class="fa fa-star" aria-hidden="true"></i>
+					<i class="fa fa-star" aria-hidden="true"></i>
+        
+        <div class="front-stars " style="width: 90%">
+					<i class="fa fa-star" aria-hidden="true"></i>
+					<i class="fa fa-star" aria-hidden="true"></i>
+					<i class="fa fa-star" aria-hidden="true"></i>
+					<i class="fa fa-star" aria-hidden="true"></i>
+					<i class="fa fa-star" aria-hidden="true" ></i>
+       
+	   </div>
+    
+	</div>
+	
+		</div>
+		
+		<div class="move">
+			<p ><h1>Des Plaines, IL</h1></p>
+			<div>
+			<div class="input-group">
+    <span class="input-group-btn">
+        <button type="button" class="btn btn-default" data-value="decrease" data-target="#spinner" data-toggle="spinner">
+            <span class="glyphicon glyphicon-minus"></span>
+        </button>
+    </span>
+    <input type="text" data-ride="spinner" id="spinner" class="form-control input-number" value="1">
+    <span class="input-group-btn">
+        <button type="button" class="btn btn-default" data-value="increase" data-target="#spinner" data-toggle="spinner">
+            <span class="glyphicon glyphicon-plus"></span>
+        </button>
+    </span>
+	</div>
+				<div class="container box">
+
+			<div class="btn-group">
+				 
+				
+				<a class="btn btn-success apply" href="FoodLocation.html" role="button">Reserve</a> 
+			
+					<a class="btn btn-primary apply" href="FoodLocation.html" role="button">Share</a>
+			
+			
+					</div>	
+					</div>
+	
+</div>
+	  </div>
+	  
+	  </div>
+	  
+	  </div>
+	  
+	  <div>
+	 
+	
+</div>
+		
+	
+	
+	
+		
+	
+  
+	
+	</div></div>
+  
+</div>
+</div>
+	
+
+	  
+	  
+	<div class="container">
+	<div class="tacobox">
+		
+	
+	<div>
+	<div class="tacobox">
+	
+	<div class="col-md-6">
+	<div id="At Work Sports Bar & Grill" class="tabcontent">
+		<h3 class="u"> At Work Sports Bar & Grill</h3>
+			<img src="At-work-sports-bar.jpg" width="350" height="250">
+	 
+
+	  
+		<div class="star-rating move" title="86%">
+					<div class="back-stars ">
+					<i class="fa fa-star" aria-hidden="true"></i>
+					<i class="fa fa-star" aria-hidden="true"></i>
+					<i class="fa fa-star" aria-hidden="true"></i>
+					<i class="fa fa-star" aria-hidden="true"></i>
+					<i class="fa fa-star" aria-hidden="true"></i>
+        
+        <div class="front-stars " style="width: 86%">
+					<i class="fa fa-star" aria-hidden="true"></i>
+					<i class="fa fa-star" aria-hidden="true"></i>
+					<i class="fa fa-star" aria-hidden="true"></i>
+					<i class="fa fa-star" aria-hidden="true"></i>
+					<i class="fa fa-star" aria-hidden="true" ></i>
+       
+	   </div>
+    
+	</div>
+	
+		</div>
+	
+		<div class="move">
+		  <p ><h1>Elk Grove Village, IL</h1></p>
+		  <div>
+		  <div class="input-group">
+	<span class="input-group-btn">
+			<button type="button" class="btn btn-default" data-value="decrease" data-target="#spinner" data-toggle="spinner">
+				<span class="glyphicon glyphicon-minus"></span>
+			</button>
+		</span>
+		<input type="text" data-ride="spinner" id="spinner" class="form-control input-number" value="1">
+		<span class="input-group-btn">
+			<button type="button" class="btn btn-default" data-value="increase" data-target="#spinner" data-toggle="spinner">
+				<span class="glyphicon glyphicon-plus"></span>
+			</button>
+		</span>
+			</div>
+					<div class="container box">
+
+				<div class="btn-group">
+				 
+				
+					<a class="btn btn-success apply" href="FoodLocation.html" role="button">Reserve</a> 
+			
+						<a class="btn btn-primary apply" href="FoodLocation.html" role="button">Share</a>
+			
+			
+						</div>	
+						</div>
+	
+</div>
+	  </div>
+	  
+	  </div>
+	  
+	  </div>
+	  
+	  <div>
+	 
+	
+</div>
+		
+	
+	
+	
+		
+	
+  
+	
+	</div></div>
+  
+</div>
+</div>
+	
+	  
+ <div class="container">
+  <div class="tacobox">
+	  
+
+	<div>
+		
+	<div class="tacobox">
+	
+	<div class = "col-md-6">
+	<div id="Lee Street Games & sports Bar" class="tabcontent">
+		<h3 class="u">Lee Street Games & sports Bar</h3>
+			<img src="Lee-Street-Bar.jpg" width="350" height="250">
+	 
+
+		<div class="star-rating move" title="84%">
+					<div class="back-stars ">
+					<i class="fa fa-star" aria-hidden="true"></i>
+					<i class="fa fa-star" aria-hidden="true"></i>
+					<i class="fa fa-star" aria-hidden="true"></i>
+					<i class="fa fa-star" aria-hidden="true"></i>
+					<i class="fa fa-star" aria-hidden="true"></i>
+        
+        <div class="front-stars " style="width: 84%">
+					<i class="fa fa-star" aria-hidden="true"></i>
+					<i class="fa fa-star" aria-hidden="true"></i>
+					<i class="fa fa-star" aria-hidden="true"></i>
+					<i class="fa fa-star" aria-hidden="true"></i>
+					<i class="fa fa-star" aria-hidden="true" ></i>
+        </div>
+		
+    </div>
+	
+		</div>
+		
+		<div class="move">
+			<p ><h1>Des Plaines, IL</h1></p>
+			<div>
+			<div class="input-group">
+    <span class="input-group-btn">
+        <button type="button" class="btn btn-default" data-value="decrease" data-target="#spinner" data-toggle="spinner">
+            <span class="glyphicon glyphicon-minus"></span>
+        </button>
+    </span>
+    <input type="text" data-ride="spinner" id="spinner" class="form-control input-number" value="1">
+    <span class="input-group-btn">
+        <button type="button" class="btn btn-default" data-value="increase" data-target="#spinner" data-toggle="spinner">
+            <span class="glyphicon glyphicon-plus"></span>
+        </button>
+    </span>
+	</div>
+				<div class="container box">
+
+			<div class="btn-group">
+				 
+				
+					<a class="btn btn-success apply" href="FoodLocation.html" role="button">Reserve</a> 
+			
+						<a class="btn btn-primary apply" href="FoodLocation.html" role="button">Share</a>
+			
+			
+						</div>	
+						</div>
+	
+</div>
+	  </div>
+	  
+	  </div>
+	  
+	  </div>
+	  
+	  <div>
+	 
+	
+</div>
+		
+	
+	
+	
+		
+	
+  
+	
+	</div></div>
+  
+</div>
+</div>
+	
+  
+ <div class="container">
+  <div class="tacobox">
+	  
+	
+	<div>
+	<div class="tacobox">
+	
+	<div class="col-md-6">
+	<div id="Countryside Saloon" class="tabcontent">
+		<h3 class="u">Countryside Saloon</h3>
+			<img src="Countryside-Saloon-Bar.jpg" width="350" height="250">
+	 
+
+		<div class="star-rating move" title="88%">
+					<div class="back-stars ">
+					<i class="fa fa-star" aria-hidden="true"></i>
+					<i class="fa fa-star" aria-hidden="true"></i>
+					<i class="fa fa-star" aria-hidden="true"></i>
+					<i class="fa fa-star" aria-hidden="true"></i>
+					<i class="fa fa-star" aria-hidden="true"></i>
+        
+        <div class="front-stars " style="width: 88%">
+					<i class="fa fa-star" aria-hidden="true"></i>
+					<i class="fa fa-star" aria-hidden="true"></i>
+					<i class="fa fa-star" aria-hidden="true"></i>
+					<i class="fa fa-star" aria-hidden="true"></i>
+					<i class="fa fa-star" aria-hidden="true" ></i>
+        </div>
+    
+	</div>
+	
+		</div>
+	
+	<div class="move">
+		<p ><h1>Des Plaines, IL</h1></p>
+		<div>
+		<div class="input-group">
+    <span class="input-group-btn">
+        <button type="button" class="btn btn-default" data-value="decrease" data-target="#spinner" data-toggle="spinner">
+            <span class="glyphicon glyphicon-minus"></span>
+        </button>
+    </span>
+    <input type="text" data-ride="spinner" id="spinner" class="form-control input-number" value="1">
+    <span class="input-group-btn">
+        <button type="button" class="btn btn-default" data-value="increase" data-target="#spinner" data-toggle="spinner">
+            <span class="glyphicon glyphicon-plus"></span>
+        </button>
+    </span>
+	</div>
+				<div class="container box">
+
+			<div class="btn-group">
+				 
+				
+				<a class="btn btn-success apply" href="FoodLocation.html" role="button">Reserve</a> 
+			
+					<a class="btn btn-primary apply" href="FoodLocation.html" role="button">Share</a>
+			
+			
+					</div>	
+					</div>
+	
+</div>
+	  </div>
+	  
+	  </div>
+	  
+	  </div>
+	  
+	  <div>
+	 
+	
+</div>
+		
+	
+	
+	
+		
+	
+  
+	
+	</div></div>
+  
+</div>
+</div>
+	
+	  
+ <div class="container">
+  <div class="tacobox">
+	  
+
+	<div>
+	<div class="tacobox">
+	
+	<div class="col-md-6">
+	<div id="Phoenix Bar and Nightclub" class="tabcontent">
+		<h3 class="u">Phoenix Bar and Nightclub</h3>
+			<img src="Phoenix-Club.jpg" width="350" height="250">
+	 
+
+	  <div class="star-rating move" title="92%">
+					<div class="back-stars ">
+					<i class="fa fa-star" aria-hidden="true"></i>
+					<i class="fa fa-star" aria-hidden="true"></i>
+					<i class="fa fa-star" aria-hidden="true"></i>
+					<i class="fa fa-star" aria-hidden="true"></i>
+					<i class="fa fa-star" aria-hidden="true"></i>
+        
+        <div class="front-stars " style="width: 92%">
+					<i class="fa fa-star" aria-hidden="true"></i>
+					<i class="fa fa-star" aria-hidden="true"></i>
+					<i class="fa fa-star" aria-hidden="true"></i>
+					<i class="fa fa-star" aria-hidden="true"></i>
+					<i class="fa fa-star" aria-hidden="true" ></i>
+        </div>
+    
+	</div>
+	
+		</div>
+	
+	<div class="move">
+		<p ><h1>Elk Grove Village, IL</h1></p>
+	 
+		<div>
+		<div class="input-group">
+    <span class="input-group-btn">
+        <button type="button" class="btn btn-default" data-value="decrease" data-target="#spinner" data-toggle="spinner">
+            <span class="glyphicon glyphicon-minus"></span>
+        </button>
+    </span>
+    <input type="text" data-ride="spinner" id="spinner" class="form-control input-number" value="1">
+    <span class="input-group-btn">
+        <button type="button" class="btn btn-default" data-value="increase" data-target="#spinner" data-toggle="spinner">
+            <span class="glyphicon glyphicon-plus"></span>
+        </button>
+    </span>
+	</div>
+				<div class="container box">
+
+			<div class="btn-group">
+				 
+				
+				<a class="btn btn-success apply" href="FoodLocation.html" role="button">Reserve</a> 
+			
+					<a class="btn btn-primary apply" href="FoodLocation.html" role="button">Share</a>
+			
+			
+					</div>	
+					</div>
+	
+</div>
+	  </div>
+	  
+	  </div>
+	  
+	  </div>
+	  
+	  <div>
+	 
+	
+</div>
+		
+	
+	
+	
+		
+	
+  
+	
+	</div></div>
+  
+</div>
+</div>
+	
+
+ <div class="container">
+  <div class="tacobox">
+	  
+
+	<div>
+	<div class="tacobox">
+	
+	<div class="col-md-6">
+	<div id="Arlington Ale House" class="tabcontent">
+		<h3 class="u">Arlington Ale House</h3>
+			<img src="Arlington-House-Bar.jpg" width="350" height="250">
+	 
+
+	  <div class="star-rating move" title="86%">
+					<div class="back-stars ">
+					<i class="fa fa-star" aria-hidden="true"></i>
+					<i class="fa fa-star" aria-hidden="true"></i>
+					<i class="fa fa-star" aria-hidden="true"></i>
+					<i class="fa fa-star" aria-hidden="true"></i>
+					<i class="fa fa-star" aria-hidden="true"></i>
+        
+        <div class="front-stars " style="width: 86%">
+					<i class="fa fa-star" aria-hidden="true"></i>
+					<i class="fa fa-star" aria-hidden="true"></i>
+					<i class="fa fa-star" aria-hidden="true"></i>
+					<i class="fa fa-star" aria-hidden="true"></i>
+					<i class="fa fa-star" aria-hidden="true" ></i>
+        </div>
+    
+	</div>
+	
+		</div>
+	
+	<div class="move">
+		<p ><h1>Arlington Heights, IL</h1></p>
+		<div>
+		<div class="input-group">
+    <span class="input-group-btn">
+        <button type="button" class="btn btn-default" data-value="decrease" data-target="#spinner" data-toggle="spinner">
+            <span class="glyphicon glyphicon-minus"></span>
+        </button>
+    </span>
+    <input type="text" data-ride="spinner" id="spinner" class="form-control input-number" value="1">
+    <span class="input-group-btn">
+        <button type="button" class="btn btn-default" data-value="increase" data-target="#spinner" data-toggle="spinner">
+            <span class="glyphicon glyphicon-plus"></span>
+        </button>
+    </span>
+	</div>
+				<div class="container box">
+
+			<div class="btn-group">
+				 
+				
+				<a class="btn btn-success apply" href="FoodLocation.html" role="button">Reserve</a> 
+			
+					<a class="btn btn-primary apply" href="FoodLocation.html" role="button">Share</a>
+			
+			
+					</div>	
+					</div>
+	
+</div>
+	  </div>
+	  
+	  </div>
+	  
+	  </div>
+	  
+	  <div>
+	 
+	
+</div>
+		
+	
+	
+	
+		
+	
+  
+	
+	</div></div>
+  
+</div>
+</div>
+	
+
+	  
+	  
+ 
+
+
+
+	
+	
+
+<script>
+function openRestaurant(evt, placeName) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+  document.getElementById(placeName).style.display = "block";
+  evt.currentTarget.className += " active";
+}
+
+// Get the element with id="defaultOpen" and click on it
+document.getElementById("defaultOpen").click();
+</script>
+   
+</body>
+</html> 
