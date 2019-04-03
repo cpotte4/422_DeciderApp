@@ -221,3 +221,29 @@ body {font-family: "Lato", sans-serif;}
     text-shadow: 2px 2px 5px #d29b09;
     top: 0;
 }*/
+
+.fa {
+	padding: 10px;
+  	font-size: 30px;
+  	width: 50px;
+  	text-align: center;
+  	text-decoration: none;
+  	margin-bottom: 10px;
+}
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+  justify-content: center;
+}
+.fa-twitter {
+	background: #55ACEE;
+  color: white;
+}
+.fa-instagram {
+	background: #191970;
+	color: white;
+}
+
+#contact {
+	font-size: 20px;
+}
