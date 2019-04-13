@@ -1,0 +1,794 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="css/mainpage.css">
+	<!-- Font Awesome Icon Library -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+
+
+
+
+    
+	<title>Thai Food</title>
+<style>
+.u{
+font-size: 51px;
+color:#0a1572;
+
+}
+.checked {
+  color: orange;
+}
+.fa
+{
+
+font-size: 50px;
+}
+.move
+{
+padding-left: 55px;
+width:298px;
+}
+.input-group
+{
+width:136px;
+margin-top: -305px;
+    margin-left: 368px;
+//padding-top: 190px;
+}
+.tabcontent 
+{
+width:187%;
+border:0;
+}
+
+.col-md-6 {
+    width: 40%;
+}
+.tacobox{
+    margin-right: -30px;
+    margin-left: 122px;
+    margin-bottom: -297px;
+	
+}
+
+.apply{
+margin-top: 40px;
+    margin-bottom: -10px;
+	padding: 16px 8px;
+}
+.box{
+    padding-left: 355px;
+}
+
+.btn-primary{
+	width: 83px
+}
+.titlesize
+	{
+font-size: 24pt;
+		
+	}
+</style>
+</head>
+<body>
+<div class="bs-example">
+    <nav id="myNavbar" class="navbar navbar-default" role="navigation">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+              <a class="navbar-brand pinal title titlesize" href="#">  Decider App</a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav TitleButtons">
+                    <li><a href="mainpage.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+		    <li><a href="contact.html">Contact Us</a></li>
+                   
+                </ul>
+                
+                    
+                
+            </div><!-- /.navbar-collapse -->
+        </div>
+    </nav>
+</div>
+
+
+<div class="tab">
+   <button class="tablinks" onclick="openRestaurant(event, 'TETC')" id="defaultOpen">The Elephant Thai Cuisine</button>
+  <button class="tablinks" onclick="openRestaurant(event, 'KT')">Krua Thai</button>
+  <button class="tablinks" onclick="openRestaurant(event, 'RTC')">Rainbow Thai Cuisine</button>
+  <button class="tablinks" onclick="openRestaurant(event, 'RTT')">Rosded Too Thai</button>
+  <button class="tablinks" onclick="openRestaurant(event, 'TubTim')">Tub Tim Thai Restaurant</button>
+  <button class="tablinks" onclick="openRestaurant(event, 'TLH')">The Little Home</button>
+  <button class="tablinks" onclick="openRestaurant(event, 'JT')">Jin Thai</button>
+  
+  
+</div>
+
+
+
+<div class="container">
+  <div class="row">
+  
+  
+  <div>
+  <div class="row">
+  
+  <div class="col-md-6">
+  <div id="TETC" class="tabcontent">
+	<h3 class="u"> The Elephant Thai Cuisine</h3>
+	  <img src="images/elephant-thai.jpg" width="350" height="250" alt="">
+	  
+	 
+ 
+	  <div class="star-rating move" title="30%">
+			<div class="back-stars ">
+			<i class="fa fa-star" aria-hidden="true"></i>
+			<i class="fa fa-star" aria-hidden="true"></i>
+			<i class="fa fa-star" aria-hidden="true"></i>
+			<i class="fa fa-star" aria-hidden="true"></i>
+			<i class="fa fa-star" aria-hidden="true"></i>
+        
+        <div class="front-stars " style="width: 30%">
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true" ></i>
+			
+        </div>
+		
+    </div>
+	
+	</div>
+	
+	<div class="move">
+	  <p ><h1>Chicago, IL</h1></p>
+	  <div>
+	  <div class="input-group">
+    <span class="input-group-btn">
+        <button type="button" class="btn btn-default" data-value="decrease" data-target="#spinner" data-toggle="spinner">
+            <span class="glyphicon glyphicon-minus"></span>
+        </button>
+    </span>
+    <input type="text" data-ride="spinner" id="spinner" class="form-control input-number" value="1">
+    <span class="input-group-btn">
+        <button type="button" class="btn btn-default" data-value="increase" data-target="#spinner" data-toggle="spinner">
+            <span class="glyphicon glyphicon-plus"></span>
+        </button>
+    </span>
+	</div>
+		     <div class="container box">
+
+		<div class="btn-group">
+				 
+				
+		    <a class="btn btn-success apply" href="Confirmation.html" role="button">Reserve</a> 
+			
+			<a class="btn btn-primary apply" href="Share.html" role="button">Share</a>
+			
+			
+			</div>	
+			</div>
+	
+</div>
+	  </div>
+	  
+	  </div>
+	  
+	  </div>
+	  
+	  <div>
+	 
+	
+</div>
+		
+	
+	
+	
+		
+	
+  
+	
+	</div></div>
+  
+</div>
+</div>
+	
+ 	
+	  
+	  
+
+<div class="container">
+  <div class="tacobox">
+  
+  
+  <div>
+  <div class="tacobox">
+  
+  <div class="col-md-6">
+  <div id="KT" class="tabcontent">
+	<h3 class="u"> Krua Thai</h3>
+	  <img src="images/krua-thai.jpg" width="350" height="250" alt="">
+	  
+	 
+ 
+	  <div class="star-rating move" title="94%">
+			<div class="back-stars ">
+			<i class="fa fa-star" aria-hidden="true"></i>
+			<i class="fa fa-star" aria-hidden="true"></i>
+			<i class="fa fa-star" aria-hidden="true"></i>
+			<i class="fa fa-star" aria-hidden="true"></i>
+			<i class="fa fa-star" aria-hidden="true"></i>
+        
+        <div class="front-stars " style="width: 94%">
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true" ></i>
+			
+        </div>
+		
+    </div>
+	
+	</div>
+	
+	<div class="move">
+	  <p ><h1>Northbrook, IL</h1></p>
+	  <div>
+	  <div class="input-group">
+    <span class="input-group-btn">
+        <button type="button" class="btn btn-default" data-value="decrease" data-target="#spinner" data-toggle="spinner">
+            <span class="glyphicon glyphicon-minus"></span>
+        </button>
+    </span>
+    <input type="text" data-ride="spinner" id="spinner" class="form-control input-number" value="1">
+    <span class="input-group-btn">
+        <button type="button" class="btn btn-default" data-value="increase" data-target="#spinner" data-toggle="spinner">
+            <span class="glyphicon glyphicon-plus"></span>
+        </button>
+    </span>
+	</div>
+		     <div class="container box">
+
+		<div class="btn-group">
+				 
+				
+		    <a class="btn btn-success apply" href="Confirmation.html" role="button">Reserve</a> 
+			
+			<a class="btn btn-primary apply" href="Share.html" role="button">Share</a>
+			
+			
+			</div>	
+			</div>
+	
+</div>
+	  </div>
+	  
+	  </div>
+	  
+	  </div>
+	  
+	  <div>
+	 
+	
+</div>
+		
+	
+	
+	
+		
+	
+  
+	
+	</div></div>
+  
+</div>
+</div>
+	
+
+	  
+<div class="container">
+  <div class="tacobox">
+  
+  
+  <div>
+  <div class="tacobox">
+  
+  <div class="col-md-6">
+  <div id="RTC" class="tabcontent">
+	<h3 class="u"> Rainbow Thai Cuisine</h3>
+	  <img src="images/rainbow-thai.jpg" width="350" height="250" alt="">
+	  
+	 
+ 
+	  <div class="star-rating move" title="83%">
+			<div class="back-stars ">
+			<i class="fa fa-star" aria-hidden="true"></i>
+			<i class="fa fa-star" aria-hidden="true"></i>
+			<i class="fa fa-star" aria-hidden="true"></i>
+			<i class="fa fa-star" aria-hidden="true"></i>
+			<i class="fa fa-star" aria-hidden="true"></i>
+        
+        <div class="front-stars " style="width: 83%">
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true" ></i>
+			
+        </div>
+		
+    </div>
+	
+	</div>
+	
+	<div class="move">
+	  <p ><h1>Chicago, IL</h1></p>
+	  <div>
+	  <div class="input-group">
+    <span class="input-group-btn">
+        <button type="button" class="btn btn-default" data-value="decrease" data-target="#spinner" data-toggle="spinner">
+            <span class="glyphicon glyphicon-minus"></span>
+        </button>
+    </span>
+    <input type="text" data-ride="spinner" id="spinner" class="form-control input-number" value="1">
+    <span class="input-group-btn">
+        <button type="button" class="btn btn-default" data-value="increase" data-target="#spinner" data-toggle="spinner">
+            <span class="glyphicon glyphicon-plus"></span>
+        </button>
+    </span>
+	</div>
+		     <div class="container box">
+
+		<div class="btn-group">
+				 
+				
+		    <a class="btn btn-success apply" href="Confirmation.html" role="button">Reserve</a> 
+			
+			<a class="btn btn-primary apply" href="Share.html" role="button">Share</a>
+			
+			
+			</div>	
+			</div>
+	
+</div>
+	  </div>
+	  
+	  </div>
+	  
+	  </div>
+	  
+	  <div>
+	 
+	
+</div>
+		
+	
+	
+	
+		
+	
+  
+	
+	</div></div>
+  
+</div>
+</div>
+	
+
+	  
+	  
+ <div class="container">
+  <div class="tacobox">
+  
+  
+  <div>
+  <div class="tacobox">
+  
+  <div class="col-md-6">
+  <div id="RTT" class="tabcontent">
+	<h3 class="u"> Rosded Too Thai</h3>
+	  <img src="images/rosded-thai.jpg" width="350" height="250" alt="">
+	  
+	 
+ 
+	  <div class="star-rating move" title="87%">
+			<div class="back-stars ">
+			<i class="fa fa-star" aria-hidden="true"></i>
+			<i class="fa fa-star" aria-hidden="true"></i>
+			<i class="fa fa-star" aria-hidden="true"></i>
+			<i class="fa fa-star" aria-hidden="true"></i>
+			<i class="fa fa-star" aria-hidden="true"></i>
+        
+        <div class="front-stars " style="width: 87%">
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true" ></i>
+			
+        </div>
+		
+    </div>
+	
+	</div>
+	
+	<div class="move">
+	  <p ><h1>Morton Grove, IL</h1></p>
+	  <div>
+	  <div class="input-group">
+    <span class="input-group-btn">
+        <button type="button" class="btn btn-default" data-value="decrease" data-target="#spinner" data-toggle="spinner">
+            <span class="glyphicon glyphicon-minus"></span>
+        </button>
+    </span>
+    <input type="text" data-ride="spinner" id="spinner" class="form-control input-number" value="1">
+    <span class="input-group-btn">
+        <button type="button" class="btn btn-default" data-value="increase" data-target="#spinner" data-toggle="spinner">
+            <span class="glyphicon glyphicon-plus"></span>
+        </button>
+    </span>
+	</div>
+		     <div class="container box">
+
+		<div class="btn-group">
+				 
+				
+		    <a class="btn btn-success apply" href="Confirmation.html" role="button">Reserve</a> 
+			
+			<a class="btn btn-primary apply" href="Share.html" role="button">Share</a>
+			
+			
+			</div>	
+			</div>
+	
+</div>
+	  </div>
+	  
+	  </div>
+	  
+	  </div>
+	  
+	  <div>
+	 
+	
+</div>
+		
+	
+	
+	
+		
+	
+  
+	
+	</div></div>
+  
+</div>
+</div>
+	
+	
+<div class="container">
+  <div class="tacobox">
+  
+  
+  <div>
+  <div class="tacobox">
+  
+  <div class="col-md-6">
+
+  <div id="TubTim" class="tabcontent">
+	<h3 class="u"> Tub Tim Thai Restaurant</h3>
+	  <img src="images/tub-tim-thai.jpg" width="350" height="250" alt="">
+	  
+	 
+ 
+	  <div class="star-rating move" title="81%">
+			<div class="back-stars ">
+			<i class="fa fa-star" aria-hidden="true"></i>
+			<i class="fa fa-star" aria-hidden="true"></i>
+			<i class="fa fa-star" aria-hidden="true"></i>
+			<i class="fa fa-star" aria-hidden="true"></i>
+			<i class="fa fa-star" aria-hidden="true"></i>
+        
+        <div class="front-stars " style="width: 81%">
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true" ></i>
+			
+        </div>
+		
+    </div>
+	
+	</div>
+	
+	<div class="move">
+	  <p ><h1>Skokie, IL</h1></p>
+	  <div>
+	  <div class="input-group">
+    <span class="input-group-btn">
+        <button type="button" class="btn btn-default" data-value="decrease" data-target="#spinner" data-toggle="spinner">
+            <span class="glyphicon glyphicon-minus"></span>
+        </button>
+    </span>
+    <input type="text" data-ride="spinner" id="spinner" class="form-control input-number" value="1">
+    <span class="input-group-btn">
+        <button type="button" class="btn btn-default" data-value="increase" data-target="#spinner" data-toggle="spinner">
+            <span class="glyphicon glyphicon-plus"></span>
+        </button>
+    </span>
+	</div>
+		     <div class="container box">
+
+		<div class="btn-group">
+				 
+				
+		    <a class="btn btn-success apply" href="Confirmation.html" role="button">Reserve</a> 
+			
+			<a class="btn btn-primary apply" href="Share.html" role="button">Share</a>
+			
+			
+			</div>	
+			</div>
+	
+</div>
+	  </div>
+	  
+	  </div>
+	  
+	  </div>
+	  
+	  <div>
+	 
+	
+</div>
+		
+	
+	
+	
+		
+	
+  
+	
+	</div></div>
+  
+</div>
+</div>
+	
+	
+	
+	
+<div class="container">
+  <div class="tacobox">
+  
+  
+  <div>
+  <div class="tacobox">
+  <div class="col-md-6">
+  <div id="TLH" class="tabcontent">
+	<h3 class="u"> The Little Home</h3>
+	  <img src="images/little-home-thai.jpg" width="350" height="250" alt="">
+	  
+	 
+ 
+	  <div class="star-rating move" title="90%">
+			<div class="back-stars ">
+			<i class="fa fa-star" aria-hidden="true"></i>
+			<i class="fa fa-star" aria-hidden="true"></i>
+			<i class="fa fa-star" aria-hidden="true"></i>
+			<i class="fa fa-star" aria-hidden="true"></i>
+			<i class="fa fa-star" aria-hidden="true"></i>
+        
+        <div class="front-stars " style="width: 90%">
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true" ></i>
+			
+        </div>
+		
+    </div>
+	
+	</div>
+	
+	<div class="move">
+	  <p ><h1>Chicago, IL</h1></p>
+	  <div>
+	  <div class="input-group">
+    <span class="input-group-btn">
+        <button type="button" class="btn btn-default" data-value="decrease" data-target="#spinner" data-toggle="spinner">
+            <span class="glyphicon glyphicon-minus"></span>
+        </button>
+    </span>
+    <input type="text" data-ride="spinner" id="spinner" class="form-control input-number" value="1">
+    <span class="input-group-btn">
+        <button type="button" class="btn btn-default" data-value="increase" data-target="#spinner" data-toggle="spinner">
+            <span class="glyphicon glyphicon-plus"></span>
+        </button>
+    </span>
+	</div>
+		     <div class="container box">
+
+		<div class="btn-group">
+				 
+				
+		    <a class="btn btn-success apply" href="Confirmation.html" role="button">Reserve</a> 
+			
+			<a class="btn btn-primary apply" href="Share.html" role="button">Share</a>
+			
+			
+			</div>	
+			</div>
+	
+</div>
+	  </div>
+	  
+	  </div>
+	  
+
+	  </div>
+	  
+	  <div>
+	 
+	
+</div>
+		
+	
+	
+	
+		
+	
+  
+	
+	</div></div>
+  
+</div>
+</div>
+	
+	
+
+
+<div class="container">
+  <div class="tacobox">
+  
+  
+  <div>
+  <div class="tacobox">
+  
+  <div class="col-md-6">
+  <div id="JT" class="tabcontent">
+	<h3 class="u"> Jin Thai</h3>
+	  <img src="images/jin-thai.jpg" width="350" height="250" alt="">
+	  
+	 
+ 
+	  <div class="star-rating move" title="96%">
+			<div class="back-stars ">
+			<i class="fa fa-star" aria-hidden="true"></i>
+			<i class="fa fa-star" aria-hidden="true"></i>
+			<i class="fa fa-star" aria-hidden="true"></i>
+			<i class="fa fa-star" aria-hidden="true"></i>
+			<i class="fa fa-star" aria-hidden="true"></i>
+        
+        <div class="front-stars " style="width: 96%">
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true"></i>
+            <i class="fa fa-star" aria-hidden="true" ></i>
+			
+        </div>
+		
+    </div>
+	
+	</div>
+	
+	<div class="move">
+	  <p ><h1>Chicago, IL</h1></p>
+	  <div>
+	  <div class="input-group">
+    <span class="input-group-btn">
+        <button type="button" class="btn btn-default" data-value="decrease" data-target="#spinner" data-toggle="spinner">
+            <span class="glyphicon glyphicon-minus"></span>
+        </button>
+    </span>
+    <input type="text" data-ride="spinner" id="spinner" class="form-control input-number" value="1">
+    <span class="input-group-btn">
+        <button type="button" class="btn btn-default" data-value="increase" data-target="#spinner" data-toggle="spinner">
+            <span class="glyphicon glyphicon-plus"></span>
+        </button>
+    </span>
+	</div>
+		     <div class="container box">
+
+		<div class="btn-group">
+				 
+				
+		    <a class="btn btn-success apply" href="Confirmation.html" role="button">Reserve</a> 
+			
+			<a class="btn btn-primary apply" href="Share.html" role="button">Share</a>
+			
+			
+			</div>	
+			</div>
+	
+</div>
+	  </div>
+	  
+	  </div>
+	  
+	  </div>
+	  
+	  <div>
+	 
+	
+</div>
+		
+	
+	
+	
+		
+	
+  
+	
+	</div></div>
+  
+</div>
+</div>
+	
+	
+  
+<script>
+
+function openRestaurant(evt, placeName) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+  document.getElementById(placeName).style.display = "block";
+  evt.currentTarget.className += " active";
+}
+
+// Get the element with id="defaultOpen" and click on it
+document.getElementById("defaultOpen").click();
+
+
+
+
+
+
+
+
+
+
+
+
+</script>
+
+   
+</body>
+</html> 
