@@ -22,14 +22,36 @@ th, td {
 }
 
 .tstyle{
-	padding-left: 600px;
+	padding-left: 550px;
     padding-right: 600px;
-    padding-top: 150px;
+    padding-top: 50px;
 	}
 	
 .halign{
 	text-align: center;
-	}
+}
+
+.alert {
+  padding: 20px;
+  background-color: #339933;
+  color: white;
+  margin-bottom: 15px;
+}
+
+.closebtn {
+  margin-left: 15px;
+  color: white;
+  font-weight: bold;
+  float: right;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.closebtn:hover {
+  color: black;
+}
 </style>
 	
 <title>Confirmation</title>
@@ -65,6 +87,11 @@ th, td {
             </div><!-- /.navbar-collapse -->
         </div>
     </nav>
+</div>
+
+<div class="alert">
+  <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span> 
+  Success! Your reservation has been completed.
 </div>
 	
 <div class="tstyle">
