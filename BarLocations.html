@@ -16,8 +16,27 @@
 	
 	
 <title>Bar Locations</title>
+<script type="text/javascript">
+function goBack() {
+  window.history.back()
+}
+	
 <style>
-
+.buttonColor {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.backButton{
+	margin-left: 85px;
+}
 .u {
 	font-size: 51px;
 	color:#0a1572;
@@ -107,7 +126,9 @@
         </div>
     </nav>
 </div>
-
+<div class="backButton">
+		<button class="buttonColor" onclick="goBack()">Previous Page</button>
+	</div>
 
 <div class="tab">
   <button class="tablinks" onclick="openRestaurant(event, 'Log Cabin Bar')" id="defaultOpen">Log Cabin Bar</button>
