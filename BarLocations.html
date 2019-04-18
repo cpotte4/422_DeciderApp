@@ -90,7 +90,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-              <a class="navbar-brand pinal title titlesize" href="mainpage.html">  Decider App</a>
+              <a class="navbar-brand pinal title titlesize" href="#">  Decider App</a>
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -179,7 +179,7 @@
 				<div class="btn-group">
 				 
 				
-					<a class="btn btn-success apply" href="ConfirmBarReservation.html" role="button">Reserve</a> 
+					<a class="btn btn-success apply" href="#" onClick="return theFunction();" role="button">Reserve</a> 
 			
 						<a class="btn btn-primary apply" href="Share.html" role="button">Share</a>
 			
@@ -274,7 +274,7 @@
 			<div class="btn-group">
 				 
 				
-				<a class="btn btn-success apply" href="ConfirmBarReservation.html" role="button">Reserve</a> 
+					<a class="btn btn-success apply" href="#" onClick="return theFunction();" role="button">Reserve</a> 
 			
 					<a class="btn btn-primary apply" href="Share.html" role="button">Share</a>
 			
@@ -374,7 +374,7 @@
 			<div class="btn-group">
 				 
 				
-				<a class="btn btn-success apply" href="ConfirmBarReservation.html" role="button">Reserve</a> 
+					<a class="btn btn-success apply" href="#" onClick="return theFunction();" role="button">Reserve</a> 
 			
 					<a class="btn btn-primary apply" href="Share.html" role="button">Share</a>
 			
@@ -465,7 +465,7 @@
 				<div class="btn-group">
 				 
 				
-					<a class="btn btn-success apply" href="ConfirmBarReservation.html" role="button">Reserve</a> 
+						<a class="btn btn-success apply" href="#" onClick="return theFunction();" role="button">Reserve</a> 
 			
 						<a class="btn btn-primary apply" href="Share.html" role="button">Share</a>
 			
@@ -553,7 +553,7 @@
 			<div class="btn-group">
 				 
 				
-					<a class="btn btn-success apply" href="ConfirmBarReservation.html" role="button">Reserve</a> 
+						<a class="btn btn-success apply" href="#" onClick="return theFunction();" role="button">Reserve</a> 
 			
 						<a class="btn btn-primary apply" href="Share.html" role="button">Share</a>
 			
@@ -640,7 +640,7 @@
 			<div class="btn-group">
 				 
 				
-				<a class="btn btn-success apply" href="ConfirmBarReservation.html" role="button">Reserve</a> 
+					<a class="btn btn-success apply" href="#" onClick="return theFunction();" role="button">Reserve</a> 
 			
 					<a class="btn btn-primary apply" href="Share.html" role="button">Share</a>
 			
@@ -728,7 +728,7 @@
 			<div class="btn-group">
 				 
 				
-				<a class="btn btn-success apply" href="ConfirmBarReservation.html" role="button">Reserve</a> 
+					<a class="btn btn-success apply" href="#" onClick="return theFunction();" role="button">Reserve</a> 
 			
 					<a class="btn btn-primary apply" href="Share.html" role="button">Share</a>
 			
@@ -815,7 +815,7 @@
 			<div class="btn-group">
 				 
 				
-				<a class="btn btn-success apply" href="ConfirmBarReservation.html" role="button">Reserve</a> 
+				<a class="btn btn-success apply" href="#" onClick="return theFunction();" role="button">Reserve</a> 
 			
 					<a class="btn btn-primary apply" href="Share.html" role="button">Share</a>
 			
@@ -849,7 +849,10 @@
 	
  	
 
-<script>
+<script type="text/javascript">
+function theFunction() {
+  alert("This bar doesn't allow any reservations!");
+}
 function openRestaurant(evt, placeName) {
   var i, tabcontent, tablinks;
   tabcontent = document.getElementsByClassName("tabcontent");
