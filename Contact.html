@@ -13,10 +13,28 @@
 	<title>Group 9 App</title>
 
 <script type="text/javascript">
+function goBack() {
+  window.history.back()
+}
 	
 
 </script>
 <style>
+.buttonColor {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.backButton{
+	margin-left: 85px;
+}
 .bc{
 		background-color: #e6f0ff;
 	}
@@ -63,7 +81,9 @@
 
 	<div class="Body adjust">
         <div class="Description">
-            
+            <div class="backButton">
+		<button class="buttonColor" onclick="goBack()">Previous Page</button>
+	</div>
             <address style="margin-left: 10%; font-style: italic;">
 				<h3 style="color:#1a0033;"><b>Email us at:</b></h3>
 					<br> 

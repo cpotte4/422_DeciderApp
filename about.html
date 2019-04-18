@@ -14,10 +14,27 @@
 	<title>Group 9 App</title>
 
 <script type="text/javascript">
-	
-
+function goBack() {
+  window.history.back()
+}
 </script>
+	
 <style>
+.buttonColor {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.backButton{
+	margin-left: 85px;
+}
 h{
 	color: blue;
 	font-size : 24px;	
@@ -62,7 +79,9 @@ p{
 
 	<div class="Body">
         <div class="Description">
-            
+	  <div class="backButton">
+		<button class="buttonColor" onclick="goBack()">Previous Page</button>
+	</div>            
            <h> The Decider App, Group 9:</h>
            <p> Kevin Kowalski, Urja Soni, Chance Potter, Shruti Shah, Pouyan Pourmirjafari. </p>  
         </div>
