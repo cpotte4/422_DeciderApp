@@ -21,14 +21,40 @@ th, td {
   text-align: left;
 }
 .tstyle{
-	padding-left: 600px;
+	padding-left: 550px;
     padding-right: 600px;
-    padding-top: 150px;
+    padding-top: 50px;
 	}
 	
 .halign{
 	text-align: center;
 	}
+
+/* The alert message box */
+.alert {
+  padding: 20px;
+  background-color: #339933; /* Red */
+  color: white;
+  margin-bottom: 15px;
+}
+
+/* The close button */
+.closebtn {
+  margin-left: 15px;
+  color: white;
+  font-weight: bold;
+  float: right;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+/* When moving the mouse over the close button */
+.closebtn:hover {
+  color: black;
+}
+
 </style>
 	
 <title>Confirmation</title>
@@ -65,13 +91,17 @@ th, td {
         </div>
     </nav>
 </div>
+
+<div class="alert">
+  <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span> 
+  Success! Your reservation has been completed.
+</div>
 	
-<div class="tstyle">
-	
+<div class="tstyle">	
 <table style="width:100%">
-  <caption><h2 class="halign">Confirmation</h2></caption>
+  <caption><h2 class="halign">Confirmation Information</h2></caption>
   <tr>
-    <td>Name</td>
+    <td>Reservation Name</td>
 	<td>David</td>
 	
   </tr>
