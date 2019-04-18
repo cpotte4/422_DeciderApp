@@ -20,6 +20,48 @@
 
 </script>
 <style>
+	body {
+  font-family: "Lato", sans-serif;
+}
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
 	.res_label {
 		display: block;
 		color: white;
@@ -98,7 +140,15 @@
     </nav>
 </div>
 
-	
+	<div class="Body">
+	<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+<p style="color:white; font-size:100%; font-family:verdana;"> This website shows you list of restarants and/or bars based on the occasion you choose. </p>
+<p style="color:white; font-size:100%; font-family:verdana;">It also lets you pick any additional features that you might want to add! 
+<p style="color:white; font-size:100%; font-family:verdana;">Once you have found the place that fits all your choices, you can reserve the table and/or share the information with people attending the event with you!
+</p>
+</div>
+	<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; Description</span>
 
 	<div class="Body">
 		<div class="ButtonRow">
@@ -127,7 +177,15 @@
 		<a href="#" class="fa fa-twitter"></a>
 	</div>
 </footer>
-	
+<script>
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+}
+</script>	
 
 </body>
 </html>
