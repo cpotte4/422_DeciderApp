@@ -13,9 +13,29 @@
 	<!-- Font Awesome Icon Library -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	
+<script type="text/javascript">
+function goBack() {
+  window.history.back()
+}
+</script>	
 	
 <style>
-	.elem {
+.buttonColor {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.backButton{
+	margin-left: 85px;
+}
+.elem {
     padding-left: 700px;
     padding-top: 200px;
 }
@@ -35,7 +55,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-              <a class="navbar-brand pinal title titlesize" href="mainpage.html">  Decider App</a>
+              <a class="navbar-brand pinal title titlesize" href="mainpage.html">  Event Decider</a>
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -52,7 +72,9 @@
         </div>
     </nav>
 </div>
-
+<div class="backButton">
+		<button class="buttonColor" onclick="goBack()">Previous Page</button>
+	</div>
 <div class ="elem">
 <form action="mailto:someone@example.com" method="post" enctype="text/plain">
 Name:<br>
