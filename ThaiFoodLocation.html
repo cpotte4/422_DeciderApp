@@ -8,23 +8,14 @@
 	<link rel="stylesheet" href="css/mainpage.css">
 	<!-- Font Awesome Icon Library -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
-
-
-
-
-
-    
-	<title>Thai Food</title>
-	<script type="text/javascript">
+<title>Thai Food</title>
+<script type="text/javascript">
 function goBack() {
-  window.history.back()
+  	window.history.back()
 }
-
-
 </script>
 <style>
-	.buttonColor {
+.buttonColor {
   	background-color: #4CAF50; /* Green */
   	border: none;
   	color: white;
@@ -39,67 +30,55 @@ function goBack() {
 .backButton {
 	margin-left: 85px;
 }
-.u{
-font-size: 51px;
-color:#0a1572;
-
+.u {
+	font-size: 51px;
+	color:#0a1572;
 }
 .checked {
-  color: orange;
+  	color: orange;
 }
-.fa
-{
-
-font-size: 50px;
+.fa {
+	font-size: 50px;
 }
-.move
-{
-padding-left: 55px;
-width:298px;
+.move {
+	padding-left: 55px;
+	width:298px;
 }
-.input-group
-{
-width:136px;
-margin-top: -305px;
+.input-group {
+	width:136px;
+	margin-top: -305px;
     margin-left: 368px;
-//padding-top: 190px;
+	//padding-top: 190px;
 }
-.tabcontent 
-{
-width:187%;
-border:0;
+.tabcontent {
+	width:187%;
+	border:0;
 }
-
 .col-md-6 {
     width: 40%;
 }
-.tacobox{
+.tacobox {
     margin-right: -30px;
     margin-left: 122px;
-    margin-bottom: -297px;
-	
+    margin-bottom: -297px;	
 }
-
-.apply{
-margin-top: 40px;
+.apply {
+	margin-top: 40px;
     margin-bottom: -10px;
 	padding: 16px 8px;
 }
-.box{
+.box {
     padding-left: 355px;
 }
-
-.btn-primary{
+.btn-primary {
 	width: 83px
 }
-.titlesize
-	{
-font-size: 24pt;
-		
-	}
-
+.titlesize {
+	font-size: 24pt;
+}
 </style>
 </head>
+
 <body>
 <div class="bs-example">
     <nav id="myNavbar" class="navbar navbar-default" role="navigation">
@@ -119,20 +98,16 @@ font-size: 24pt;
                 <ul class="nav navbar-nav TitleButtons">
                     <li><a href="mainpage.html">Home</a></li>
                     <li><a href="about.html">About</a></li>
-		    <li><a href="contact.html">Contact Us</a></li>
-                   
-                </ul>
-                
-                    
-                
+		    		<li><a href="contact.html">Contact Us</a></li>  
+                </ul>  
             </div><!-- /.navbar-collapse -->
         </div>
     </nav>
 </div>
-<div class="backButton">
-		<button class="buttonColor" onclick="goBack()">Previous Page</button>
-</div>
 
+<div class="backButton">
+	<button class="buttonColor" onclick="goBack()">Previous Page</button>
+</div>
 
 <div class="tab">
    <button class="tablinks" onclick="openRestaurant(event, 'TETC')" id="defaultOpen">The Elephant Thai Cuisine</button>
@@ -141,104 +116,66 @@ font-size: 24pt;
   <button class="tablinks" onclick="openRestaurant(event, 'RTT')">Rosded Too Thai</button>
   <button class="tablinks" onclick="openRestaurant(event, 'TubTim')">Tub Tim Thai Restaurant</button>
   <button class="tablinks" onclick="openRestaurant(event, 'TLH')">The Little Home</button>
-  <button class="tablinks" onclick="openRestaurant(event, 'JT')">Jin Thai</button>
-  
-  
+  <button class="tablinks" onclick="openRestaurant(event, 'JT')">Jin Thai</button> 
 </div>
 
 
 
 <div class="container">
   <div class="row">
-  
-  
   <div>
   <div class="row">
-  
   <div class="col-md-6">
   <div id="TETC" class="tabcontent">
 	<h3 class="u"> The Elephant Thai Cuisine</h3>
 	  <img src="images/elephant-thai.jpg" width="350" height="250" alt="">
-	  
-	 
- 
 	  <div class="star-rating move" title="30%">
 			<div class="back-stars ">
-			<i class="fa fa-star" aria-hidden="true"></i>
-			<i class="fa fa-star" aria-hidden="true"></i>
-			<i class="fa fa-star" aria-hidden="true"></i>
-			<i class="fa fa-star" aria-hidden="true"></i>
-			<i class="fa fa-star" aria-hidden="true"></i>
-        
-        <div class="front-stars " style="width: 30%">
-            <i class="fa fa-star" aria-hidden="true"></i>
-            <i class="fa fa-star" aria-hidden="true"></i>
-            <i class="fa fa-star" aria-hidden="true"></i>
-            <i class="fa fa-star" aria-hidden="true"></i>
-            <i class="fa fa-star" aria-hidden="true" ></i>
-			
-        </div>
-		
+				<i class="fa fa-star" aria-hidden="true"></i>
+				<i class="fa fa-star" aria-hidden="true"></i>
+				<i class="fa fa-star" aria-hidden="true"></i>
+				<i class="fa fa-star" aria-hidden="true"></i>
+				<i class="fa fa-star" aria-hidden="true"></i>
+        	<div class="front-stars " style="width: 30%">
+            	<i class="fa fa-star" aria-hidden="true"></i>
+            	<i class="fa fa-star" aria-hidden="true"></i>
+            	<i class="fa fa-star" aria-hidden="true"></i>
+            	<i class="fa fa-star" aria-hidden="true"></i>
+            	<i class="fa fa-star" aria-hidden="true" ></i>
+			</div>	
     </div>
-	
 	</div>
-	
 	<div class="move">
 	  <p ><h1>Chicago, IL</h1></p>
 	  <div>
 	  <div class="input-group">
-    <span class="input-group-btn">
-        <button type="button" class="btn btn-default" data-value="decrease" data-target="#spinner" data-toggle="spinner">
-            <span class="glyphicon glyphicon-minus"></span>
-        </button>
-    </span>
-    <input type="text" data-ride="spinner" id="spinner" class="form-control input-number" value="1">
-    <span class="input-group-btn">
-        <button type="button" class="btn btn-default" data-value="increase" data-target="#spinner" data-toggle="spinner">
-            <span class="glyphicon glyphicon-plus"></span>
-        </button>
-    </span>
+    	<span class="input-group-btn">
+        	<button type="button" class="btn btn-default" data-value="decrease" data-target="#spinner" data-toggle="spinner">
+            	<span class="glyphicon glyphicon-minus"></span>
+        	</button>
+    	</span>
+    	<input type="text" data-ride="spinner" id="spinner" class="form-control input-number" value="1">
+    	<span class="input-group-btn">
+        	<button type="button" class="btn btn-default" data-value="increase" data-target="#spinner" data-toggle="spinner">
+            	<span class="glyphicon glyphicon-plus"></span>
+        	</button>
+    	</span>
+		</div>
+		<div class="container box">
+		<div class="btn-group">	
+		    <a class="btn btn-success apply" href="Confirmation.html" role="button">Reserve</a> 			
+			<a class="btn btn-primary apply" href="Share.html" role="button">Share</a>			
+		</div>	
+		</div>
 	</div>
-		     <div class="container box">
-
-		<div class="btn-group">
-				 
-				
-		    <a class="btn btn-success apply" href="Confirmation.html" role="button">Reserve</a> 
-			
-			<a class="btn btn-primary apply" href="Share.html" role="button">Share</a>
-			
-			
-			</div>	
-			</div>
-	
+	</div>
+	</div>
+	</div>
+	<div>	
 </div>
-	  </div>
-	  
-	  </div>
-	  
-	  </div>
-	  
-	  <div>
-	 
-	
-</div>
-		
-	
-	
-	
-		
-	
-  
-	
-	</div></div>
-  
+</div></div>  
 </div>
 </div>
-	
- 	
-	  
-	  
 
 <div class="container">
   <div class="tacobox">
