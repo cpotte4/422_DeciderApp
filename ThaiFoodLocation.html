@@ -16,7 +16,7 @@
 
     
 	<title>Thai Food</title>
-<script type="text/javascript">
+	<script type="text/javascript">
 function goBack() {
   window.history.back()
 }
@@ -24,7 +24,7 @@ function goBack() {
 
 </script>
 <style>
-.buttonColor {
+	.buttonColor {
   	background-color: #4CAF50; /* Green */
   	border: none;
   	color: white;
@@ -39,61 +39,68 @@ function goBack() {
 .backButton {
 	margin-left: 85px;
 }
-.u {
-	font-size: 51px;
-	color:#0a1572;
+.u{
+font-size: 51px;
+color:#0a1572;
+
 }
 .checked {
   color: orange;
 }
-.fa{
-	font-size: 50px;
+.fa
+{
+
+font-size: 50px;
 }
-.move {
-	padding-left: 55px;
-	width:298px;
+.move
+{
+padding-left: 55px;
+width:298px;
 }
-.input-group {
-	width:136px;
-	margin-top: -305px;
+.input-group
+{
+width:136px;
+margin-top: -305px;
     margin-left: 368px;
-	padding-top: 190px;
+//padding-top: 190px;
 }
-.tabcontent {
-	width:187%;
-	border:0;
+.tabcontent 
+{
+width:187%;
+border:0;
 }
 
 .col-md-6 {
     width: 40%;
 }
-.tacobox {
-    margin-right: 30px;
-    margin-left: 160px;
-    margin-bottom: -297px;	
+.tacobox{
+    margin-right: -30px;
+    margin-left: 122px;
+    margin-bottom: -297px;
+	
 }
 
-.apply {
-	margin-top: 40px;
+.apply{
+margin-top: 40px;
     margin-bottom: -10px;
 	padding: 16px 8px;
 }
-.box {
+.box{
     padding-left: 355px;
 }
+
 .btn-primary{
 	width: 83px
 }
-.titlesize {
-	font-size: 24pt;
-}
-.mfirst{
-	margin-left: 90px;
-}
+.titlesize
+	{
+font-size: 24pt;
+		
+	}
+
 </style>
 </head>
 <body>
-
 <div class="bs-example">
     <nav id="myNavbar" class="navbar navbar-default" role="navigation">
         <!-- Brand and toggle get grouped for better mobile display -->
@@ -105,7 +112,7 @@ function goBack() {
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-              <a class="navbar-brand pinal title titlesize" href="mainpage.html">  Decider App</a>
+              <a class="navbar-brand pinal title titlesize" href="#">  Event Decider</a>
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -122,30 +129,39 @@ function goBack() {
         </div>
     </nav>
 </div>
-
 <div class="backButton">
 		<button class="buttonColor" onclick="goBack()">Previous Page</button>
 </div>
 
+
 <div class="tab">
-	<button class="tablinks" onclick="openRestaurant(event, 'TETC')" id="defaultOpen">The Elephant Thai Cuisine</button>
-  	<button class="tablinks" onclick="openRestaurant(event, 'KT')">Krua Thai</button>
-  	<button class="tablinks" onclick="openRestaurant(event, 'RTC')">Rainbow Thai Cuisine</button>
-  	<button class="tablinks" onclick="openRestaurant(event, 'RTT')">Rosded Too Thai</button>
-  	<button class="tablinks" onclick="openRestaurant(event, 'TubTim')">Tub Tim Thai Restaurant</button>
-  	<button class="tablinks" onclick="openRestaurant(event, 'TLH')">The Little Home</button>
-  	<button class="tablinks" onclick="openRestaurant(event, 'JT')">Jin Thai</button>  
+   <button class="tablinks" onclick="openRestaurant(event, 'TETC')" id="defaultOpen">The Elephant Thai Cuisine</button>
+  <button class="tablinks" onclick="openRestaurant(event, 'KT')">Krua Thai</button>
+  <button class="tablinks" onclick="openRestaurant(event, 'RTC')">Rainbow Thai Cuisine</button>
+  <button class="tablinks" onclick="openRestaurant(event, 'RTT')">Rosded Too Thai</button>
+  <button class="tablinks" onclick="openRestaurant(event, 'TubTim')">Tub Tim Thai Restaurant</button>
+  <button class="tablinks" onclick="openRestaurant(event, 'TLH')">The Little Home</button>
+  <button class="tablinks" onclick="openRestaurant(event, 'JT')">Jin Thai</button>
+  
+  
 </div>
+
+
 
 <div class="container">
   <div class="row">
+  
+  
   <div>
   <div class="row">
   
   <div class="col-md-6">
-  <div id="TETC" class="tabcontent mfirst">
+  <div id="TETC" class="tabcontent">
 	<h3 class="u"> The Elephant Thai Cuisine</h3>
 	  <img src="images/elephant-thai.jpg" width="350" height="250" alt="">
+	  
+	 
+ 
 	  <div class="star-rating move" title="30%">
 			<div class="back-stars ">
 			<i class="fa fa-star" aria-hidden="true"></i>
@@ -187,9 +203,11 @@ function goBack() {
 
 		<div class="btn-group">
 				 
-			<a class="btn btn-success apply" href="#" onClick='return myFunction("The Elephant Thai Cuisine", "Chicago, IL");' role="button">Reserve</a> 
+				
+		    <a class="btn btn-success apply" href="Confirmation.html" role="button">Reserve</a> 
 			
-			<a class="btn btn-primary apply" href="#" onClick='return shareFunction("The Elephant Thai Cuisine", "Chicago, IL");' role="button">Share</a> 
+			<a class="btn btn-primary apply" href="Share.html" role="button">Share</a>
+			
 			
 			</div>	
 			</div>
@@ -201,17 +219,30 @@ function goBack() {
 	  
 	  </div>
 	  
-	  <div>	 
+	  <div>
+	 
 	
 </div>
+		
+	
+	
+	
+		
+	
+  
 	
 	</div></div>
   
 </div>
-</div>  
+</div>
+	
+ 	
+	  
+	  
 
 <div class="container">
   <div class="tacobox">
+  
   
   <div>
   <div class="tacobox">
@@ -264,9 +295,11 @@ function goBack() {
 
 		<div class="btn-group">
 				 
-			<a class="btn btn-success apply" href="#" onClick='return myFunction("Krua Thai", "Northbrook, IL");' role="button">Reserve</a> 
+				
+		    <a class="btn btn-success apply" href="Confirmation.html" role="button">Reserve</a> 
 			
-			<a class="btn btn-primary apply" href="#" onClick='return shareFunction("Krua Thai", "Northbrook, IL");' role="button">Share</a> 
+			<a class="btn btn-primary apply" href="Share.html" role="button">Share</a>
+			
 			
 			</div>	
 			</div>
@@ -282,14 +315,24 @@ function goBack() {
 	 
 	
 </div>
+		
+	
+	
+	
+		
+	
+  
 	
 	</div></div>
   
 </div>
 </div>
+	
+
 	  
 <div class="container">
   <div class="tacobox">
+  
   
   <div>
   <div class="tacobox">
@@ -297,7 +340,8 @@ function goBack() {
   <div class="col-md-6">
   <div id="RTC" class="tabcontent">
 	<h3 class="u"> Rainbow Thai Cuisine</h3>
-	  <img src="images/rainbow-thai.jpg" width="350" height="250" alt="">  
+	  <img src="images/rainbow-thai.jpg" width="350" height="250" alt="">
+	  
 	 
  
 	  <div class="star-rating move" title="83%">
@@ -341,9 +385,11 @@ function goBack() {
 
 		<div class="btn-group">
 				 
-			<a class="btn btn-success apply" href="#" onClick='return myFunction("Rainbow Thai Cuisine", "Chicago, IL");' role="button">Reserve</a> 
+				
+		    <a class="btn btn-success apply" href="Confirmation.html" role="button">Reserve</a> 
 			
-			<a class="btn btn-primary apply" href="#" onClick='return shareFunction("Rainbow Thai Cuisine", "Chicago, IL");' role="button">Share</a> 
+			<a class="btn btn-primary apply" href="Share.html" role="button">Share</a>
+			
 			
 			</div>	
 			</div>
@@ -355,17 +401,29 @@ function goBack() {
 	  
 	  </div>
 	  
-	  <div> 
+	  <div>
+	 
 	
 </div>
 		
+	
+	
+	
+		
+	
+  
+	
 	</div></div>
   
 </div>
-</div>	  
+</div>
+	
+
+	  
 	  
  <div class="container">
   <div class="tacobox">
+  
   
   <div>
   <div class="tacobox">
@@ -418,22 +476,34 @@ function goBack() {
 
 		<div class="btn-group">
 				 
-			<a class="btn btn-success apply" href="#" onClick='return myFunction("Rosded Too Thai", "Morton Grove, IL");' role="button">Reserve</a> 
+				
+		    <a class="btn btn-success apply" href="Confirmation.html" role="button">Reserve</a> 
 			
-			<a class="btn btn-primary apply" href="#" onClick='return shareFunction("Rosded Too Thai", "Morton Grove, IL");' role="button">Share</a> 
+			<a class="btn btn-primary apply" href="Share.html" role="button">Share</a>
+			
 			
 			</div>	
 			</div>
-</div>
-	  </div>
-	  
-	  </div>
-	  
-	  </div>
-	  
-	  <div>	 
 	
 </div>
+	  </div>
+	  
+	  </div>
+	  
+	  </div>
+	  
+	  <div>
+	 
+	
+</div>
+		
+	
+	
+	
+		
+	
+  
+	
 	</div></div>
   
 </div>
@@ -441,7 +511,8 @@ function goBack() {
 	
 	
 <div class="container">
-  <div class="tacobox">  
+  <div class="tacobox">
+  
   
   <div>
   <div class="tacobox">
@@ -450,7 +521,9 @@ function goBack() {
 
   <div id="TubTim" class="tabcontent">
 	<h3 class="u"> Tub Tim Thai Restaurant</h3>
-	  <img src="images/tub-tim-thai.jpg" width="350" height="250" alt="">	  
+	  <img src="images/tub-tim-thai.jpg" width="350" height="250" alt="">
+	  
+	 
  
 	  <div class="star-rating move" title="81%">
 			<div class="back-stars ">
@@ -492,37 +565,55 @@ function goBack() {
 		     <div class="container box">
 
 		<div class="btn-group">
-				 			
-		    <a class="btn btn-success apply" href="#" onClick='return myFunction("Tub Tim Thai Restaurant", "Skokie, IL");' role="button">Reserve</a> 
+				 
+				
+		    <a class="btn btn-success apply" href="Confirmation.html" role="button">Reserve</a> 
 			
-			<a class="btn btn-primary apply" href="#" onClick='return shareFunction("Tub Tim Thai Restaurant", "Skokie, IL");' role="button">Share</a> 
+			<a class="btn btn-primary apply" href="Share.html" role="button">Share</a>
+			
 			
 			</div>	
-			</div>	
-</div>
-	  </div>
-	  
-	  </div>
-	  
-	  </div>
-	  
-	  <div>	 
+			</div>
 	
 </div>
+	  </div>
+	  
+	  </div>
+	  
+	  </div>
+	  
+	  <div>
+	 
+	
+</div>
+		
+	
+	
+	
+		
+	
+  
+	
 	</div></div>
   
 </div>
 </div>
-		
+	
+	
+	
+	
 <div class="container">
   <div class="tacobox">
+  
   
   <div>
   <div class="tacobox">
   <div class="col-md-6">
   <div id="TLH" class="tabcontent">
 	<h3 class="u"> The Little Home</h3>
-	  <img src="images/little-home-thai.jpg" width="350" height="250" alt="">	 
+	  <img src="images/little-home-thai.jpg" width="350" height="250" alt="">
+	  
+	 
  
 	  <div class="star-rating move" title="90%">
 			<div class="back-stars ">
@@ -565,29 +656,46 @@ function goBack() {
 
 		<div class="btn-group">
 				 
-			<a class="btn btn-success apply" href="#" onClick='return myFunction("The Little Home", "Chicago, IL");' role="button">Reserve</a> 
+				
+		    <a class="btn btn-success apply" href="Confirmation.html" role="button">Reserve</a> 
 			
-			<a class="btn btn-primary apply" href="#" onClick='return shareFunction("The Little Home", "Chicago, IL");' role="button">Share</a> 
+			<a class="btn btn-primary apply" href="Share.html" role="button">Share</a>
+			
 			
 			</div>	
-			</div>	
+			</div>
+	
 </div>
 	  </div>
 	  
 	  </div>
+	  
 
 	  </div>
 	  
 	  <div>
 	 
+	
 </div>
+		
+	
+	
+	
+		
+	
+  
+	
 	</div></div>
   
 </div>
 </div>
 	
+	
+
+
 <div class="container">
-  <div class="tacobox"> 
+  <div class="tacobox">
+  
   
   <div>
   <div class="tacobox">
@@ -596,6 +704,8 @@ function goBack() {
   <div id="JT" class="tabcontent">
 	<h3 class="u"> Jin Thai</h3>
 	  <img src="images/jin-thai.jpg" width="350" height="250" alt="">
+	  
+	 
  
 	  <div class="star-rating move" title="96%">
 			<div class="back-stars ">
@@ -638,9 +748,11 @@ function goBack() {
 
 		<div class="btn-group">
 				 
-			<a class="btn btn-success apply" href="#" onClick='return myFunction("Jin Thai", "Chicago, IL");' role="button">Reserve</a> 
+				
+		    <a class="btn btn-success apply" href="Confirmation.html" role="button">Reserve</a> 
 			
-			<a class="btn btn-primary apply" href="#" onClick='return shareFunction("Jin Thai", "Chicago, IL");' role="button">Share</a> 
+			<a class="btn btn-primary apply" href="Share.html" role="button">Share</a>
+			
 			
 			</div>	
 			</div>
@@ -653,15 +765,26 @@ function goBack() {
 	  </div>
 	  
 	  <div>
+	 
 	
 </div>
+		
+	
+	
+	
+		
+	
+  
 	
 	</div></div>
   
 </div>
-</div>	
+</div>
+	
+	
   
 <script>
+
 function openRestaurant(evt, placeName) {
   var i, tabcontent, tablinks;
   tabcontent = document.getElementsByClassName("tabcontent");
@@ -678,19 +801,20 @@ function openRestaurant(evt, placeName) {
 
 // Get the element with id="defaultOpen" and click on it
 document.getElementById("defaultOpen").click();
+
+
+
+
+
+
+
+
+
+
+
+
 </script>
 
-<script type="text/javascript">
-	function myFunction(name, location) {
-		window.alert("Reservation successful! Reservation has been completed for:\n\t\t\t"+name+" in "+location
-			+"\n\t\t\tParty Size: 4\n\t\t\tConfirmation Number: "+Math.floor(Math.random()*90000000)+
-			"\nPlease present the confirmation upon arrival at the restaurant");
-	}	
-	function shareFunction(name, location) {
-		var emailMessage = "\"I have completed our reservation at "+name+" in "+ location+ "for our party of 4.\"";
-		window.prompt("Enter the email address of the user you want to share the reservation information with.\nThe email will contain the following message:\n\t\t\t"+emailMessage + "\n\nTo send to multiple users, please seperate all emails by a comma.", "user@email.com");
-	}
-</script>
    
 </body>
 </html> 
