@@ -29,7 +29,7 @@ function goBack() {
   margin: 4px 2px;
   cursor: pointer;
 }
-.backButton {
+.backButton{
 	margin-left: 85px;
 }
 
@@ -86,16 +86,11 @@ margin-top: 40px;
 .btn-primary{
 	width: 83px
 }
-.titlesize {
-	font-size: 24pt;
-}
-#bs-example-navbar-collapse-1 {
-	display: inline-block;
-	padding-left: 100px;
-}
-.navbar-header {
-	padding-top: 12px;
-}
+.titlesize
+	{
+font-size: 24pt;
+		
+	}
 </style>
 </head>
 <body>
@@ -184,13 +179,14 @@ margin-top: 40px;
 	  <div>
 	  <div class="input-group">
     <span class="input-group-btn">
-        <button type="button" class="btn btn-default" data-value="decrease" data-target="#spinner" data-toggle="spinner">
+        <button type="button" onClick="subFromGroup()" class="btn btn-default" data-value="decrease" data-target="#spinner" data-toggle="spinner">
             <span class="glyphicon glyphicon-minus"></span>
         </button>
     </span>
-    <input type="text" data-ride="spinner" id="spinner" class="form-control input-number" value="1">
+    <!--<input type="text" data-ride="spinner" id="spinner" class="form-control input-number" value="1">-->
+	<input type="number" id="group_size1" class="form-control input-number" value="1" min="1" max="12" step="1">
     <span class="input-group-btn">
-        <button type="button" class="btn btn-default" data-value="increase" data-target="#spinner" data-toggle="spinner">
+        <button type="button" onClick="addToGroup()" class="btn btn-default" data-value="increase" data-target="#spinner" data-toggle="spinner">
             <span class="glyphicon glyphicon-plus"></span>
         </button>
     </span>
@@ -264,13 +260,14 @@ margin-top: 40px;
 	  <div>
 	  <div class="input-group">
     <span class="input-group-btn">
-        <button type="button" class="btn btn-default" data-value="decrease" data-target="#spinner" data-toggle="spinner">
+        <button type="button" onClick="subFromGroup()" class="btn btn-default" data-value="decrease" data-target="#spinner" data-toggle="spinner">
             <span class="glyphicon glyphicon-minus"></span>
         </button>
     </span>
-    <input type="text" data-ride="spinner" id="spinner" class="form-control input-number" value="1">
+    <!--<input type="text" data-ride="spinner" id="spinner" class="form-control input-number" value="1">-->
+	<input type="number" id="group_size2" class="form-control input-number" value="1" min="1" max="12" step="1">
     <span class="input-group-btn">
-        <button type="button" class="btn btn-default" data-value="increase" data-target="#spinner" data-toggle="spinner">
+        <button type="button" onClick="addToGroup()" class="btn btn-default" data-value="increase" data-target="#spinner" data-toggle="spinner">
             <span class="glyphicon glyphicon-plus"></span>
         </button>
     </span>
@@ -342,13 +339,14 @@ margin-top: 40px;
 	  <div>
 	  <div class="input-group">
     <span class="input-group-btn">
-        <button type="button" class="btn btn-default" data-value="decrease" data-target="#spinner" data-toggle="spinner">
+        <button type="button" onClick="subFromGroup()" class="btn btn-default" data-value="decrease" data-target="#spinner" data-toggle="spinner">
             <span class="glyphicon glyphicon-minus"></span>
         </button>
     </span>
-    <input type="text" data-ride="spinner" id="spinner" class="form-control input-number" value="1">
+    <!--<input type="text" data-ride="spinner" id="spinner" class="form-control input-number" value="1">-->
+	<input type="number" id="group_size3" class="form-control input-number" value="1" min="1" max="12" step="1">
     <span class="input-group-btn">
-        <button type="button" class="btn btn-default" data-value="increase" data-target="#spinner" data-toggle="spinner">
+        <button type="button" onClick="addToGroup()" class="btn btn-default" data-value="increase" data-target="#spinner" data-toggle="spinner">
             <span class="glyphicon glyphicon-plus"></span>
         </button>
     </span>
@@ -423,13 +421,14 @@ margin-top: 40px;
 	  <div>
 	  <div class="input-group">
     <span class="input-group-btn">
-        <button type="button" class="btn btn-default" data-value="decrease" data-target="#spinner" data-toggle="spinner">
+        <button type="button" onClick="subFromGroup()" class="btn btn-default" data-value="decrease" data-target="#spinner" data-toggle="spinner">
             <span class="glyphicon glyphicon-minus"></span>
         </button>
     </span>
-    <input type="text" data-ride="spinner" id="spinner" class="form-control input-number" value="1">
+    <!--<input type="text" data-ride="spinner" id="spinner" class="form-control input-number" value="1">-->
+	<input type="number" id="group_size4" class="form-control input-number" value="1" min="1" max="12" step="1">
     <span class="input-group-btn">
-        <button type="button" class="btn btn-default" data-value="increase" data-target="#spinner" data-toggle="spinner">
+        <button type="button" onClick="addToGroup()" class="btn btn-default" data-value="increase" data-target="#spinner" data-toggle="spinner">
             <span class="glyphicon glyphicon-plus"></span>
         </button>
     </span>
@@ -504,13 +503,14 @@ margin-top: 40px;
 	  <div>
 	  <div class="input-group">
     <span class="input-group-btn">
-        <button type="button" class="btn btn-default" data-value="decrease" data-target="#spinner" data-toggle="spinner">
+        <button type="button" onClick="subFromGroup()" class="btn btn-default" data-value="decrease" data-target="#spinner" data-toggle="spinner">
             <span class="glyphicon glyphicon-minus"></span>
         </button>
     </span>
-    <input type="text" data-ride="spinner" id="spinner" class="form-control input-number" value="1">
+    <!--<input type="text" data-ride="spinner" id="spinner" class="form-control input-number" value="1">-->
+	<input type="number" id="group_size5" class="form-control input-number" value="1" min="1" max="12" step="1">
     <span class="input-group-btn">
-        <button type="button" class="btn btn-default" data-value="increase" data-target="#spinner" data-toggle="spinner">
+        <button type="button" onClick="addToGroup()" class="btn btn-default" data-value="increase" data-target="#spinner" data-toggle="spinner">
             <span class="glyphicon glyphicon-plus"></span>
         </button>
     </span>
@@ -581,13 +581,14 @@ margin-top: 40px;
 	  <div>
 	  <div class="input-group">
     <span class="input-group-btn">
-        <button type="button" class="btn btn-default" data-value="decrease" data-target="#spinner" data-toggle="spinner">
+        <button type="button" onClick="subFromGroup()" class="btn btn-default" data-value="decrease" data-target="#spinner" data-toggle="spinner">
             <span class="glyphicon glyphicon-minus"></span>
         </button>
     </span>
-    <input type="text" data-ride="spinner" id="spinner" class="form-control input-number" value="1">
+    <!--<input type="text" data-ride="spinner" id="spinner" class="form-control input-number" value="1">-->
+	<input type="number" id="group_size6" class="form-control input-number" value="1" min="1" max="12" step="1">
     <span class="input-group-btn">
-        <button type="button" class="btn btn-default" data-value="increase" data-target="#spinner" data-toggle="spinner">
+        <button type="button" onClick="addToGroup()" class="btn btn-default" data-value="increase" data-target="#spinner" data-toggle="spinner">
             <span class="glyphicon glyphicon-plus"></span>
         </button>
     </span>
@@ -661,13 +662,14 @@ margin-top: 40px;
 	  <div>
 	  <div class="input-group">
     <span class="input-group-btn">
-        <button type="button" class="btn btn-default" data-value="decrease" data-target="#spinner" data-toggle="spinner">
+        <button type="button" onClick="subFromGroup()" class="btn btn-default" data-value="decrease" data-target="#spinner" data-toggle="spinner">
             <span class="glyphicon glyphicon-minus"></span>
         </button>
     </span>
-    <input type="text" data-ride="spinner" id="spinner" class="form-control input-number" value="1">
+    <!--<input type="text" data-ride="spinner" id="spinner" class="form-control input-number" value="1">-->
+	<input type="number" id="group_size7" class="form-control input-number" value="1" min="1" max="12" step="1">
     <span class="input-group-btn">
-        <button type="button" class="btn btn-default" data-value="increase" data-target="#spinner" data-toggle="spinner">
+        <button type="button" onClick="addToGroup()" class="btn btn-default" data-value="increase" data-target="#spinner" data-toggle="spinner">
             <span class="glyphicon glyphicon-plus"></span>
         </button>
     </span>
@@ -722,13 +724,59 @@ document.getElementById("defaultOpen").click();
 <script type="text/javascript">
 	function myFunction(name, location) {
 		window.alert("Reservation successful! Reservation has been completed for:\n\t\t\t"+name+" in "+location
-			+"\n\t\t\tParty Size: 4\n\t\t\tConfirmation Number: "+Math.floor(Math.random()*90000000)+
+			+"\n\t\t\tParty Size: " + document.getElementById("group_size1").value + "\n\t\t\tConfirmation Number: "+Math.floor(Math.random()*90000000)+
 			"\nPlease present the confirmation upon arrival at the restaurant");
 	}	
 	function shareFunction(name, location) {
-		var emailMessage = "\"I have completed our reservation at "+name+" in "+ location+ "for our party of 4.\"";
+		var emailMessage = "\"I have completed our reservation at "+name+" in "+ location+ " for our party of " + document.getElementById("group_size1").value + ".\"";
 		window.prompt("Enter the email address of the user you want to share the reservation information with.\nThe email will contain the following message:\n\t\t\t"+emailMessage + "\n\nTo send to multiple users, please seperate all emails by a comma.", "user@email.com");
 	}
+</script>
+
+<script>
+// called when plus button is clicked
+function addToGroup() {
+	var group_size1 = document.getElementById("group_size1");
+	var group_size2 = document.getElementById("group_size2");
+	var group_size3 = document.getElementById("group_size3");
+	var group_size4 = document.getElementById("group_size4");
+	var group_size5 = document.getElementById("group_size5");
+	var group_size6 = document.getElementById("group_size6");
+	var group_size7 = document.getElementById("group_size7");
+	
+	// incrementing all input fields keeps them "in-sync"
+	if (group_size1.value < 12) {
+			group_size1.value++;
+			group_size2.value++;
+			group_size3.value++;
+			group_size4.value++;
+			group_size5.value++;
+			group_size6.value++;
+			group_size7.value++;
+		}
+}
+
+//called when minus button is clicked
+function subFromGroup() {
+	var group_size1 = document.getElementById("group_size1");
+	var group_size2 = document.getElementById("group_size2");
+	var group_size3 = document.getElementById("group_size3");
+	var group_size4 = document.getElementById("group_size4");
+	var group_size5 = document.getElementById("group_size5");
+	var group_size6 = document.getElementById("group_size6");
+	var group_size7 = document.getElementById("group_size7");
+	
+	// decrementing all input fields keeps them "in-sync"
+	if (group_size1.value > 1) {
+			group_size1.value--;
+			group_size2.value--;
+			group_size3.value--;
+			group_size4.value--;
+			group_size5.value--;
+			group_size6.value--;
+			group_size7.value--;
+		}
+}
 </script>
    
 </body>
